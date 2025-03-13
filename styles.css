@@ -3,11 +3,15 @@ body {
 }
 .post {
     background-color: white;
-    height: 600px;
+    height: 700px;
     width: 400px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .post-header {
     display: flex;
+    padding: 10px;
 }
 .titles p {
     margin: 0px;
@@ -21,7 +25,30 @@ body {
 .icons-left {
     margin-right: auto;
     display: flex;
+    margin-top: 7px;
 }
 .icons {
     display: flex;
+    padding-top: 10px;
+    margin-bottom: 35px;
+}
+.fa-regular {
+    margin-right: 5px;
+}
+.fa-bookmark {
+    margin-top: 7px;
+}
+.post-footer {
+    padding: 10px;
+    font-size: medium;
+}
+.fa-html5 {
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.fa-ellipsis-vertical {
+    margin-top: 10px;
+}
+.post-footer p {
+font-size: 15px;
 }
